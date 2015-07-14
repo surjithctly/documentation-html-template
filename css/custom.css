@@ -1,0 +1,171 @@
+/*Docs*/
+
+.sub-title {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.sub-title a {
+    font-size: 16px;
+}
+
+.section.docs-heading {
+    padding: 60px 0;
+}
+
+.affix {
+    position: static;
+}
+
+@media (min-width: 992px) {
+    .affix,
+    .affix-bottom {
+        width: 213px
+    }
+    .affix {
+        position: fixed;
+        top: 20px
+    }
+    .affix-bottom {
+        position: absolute
+    }
+    .affix .bs-docs-sidenav,
+    .affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+
+@media (min-width: 1200px) {
+    .affix,
+    .affix-bottom {
+        width: 263px
+    }
+}
+
+@media (min-width: 768px) {
+    .docs-sidebar {
+        padding-left: 20px
+    }
+}
+
+.intro a {
+    font-size: 15px;
+}
+
+.intro .disabled {
+    color: #777;
+    cursor: default;
+}
+
+.docs-sidebar .intro>li>a:focus,
+.docs-sidebar .intro>li>a:hover {
+    color: #0E97EE;
+}
+
+.docs-sidebar .intro>.active:focus>a,
+.docs-sidebar .intro>.active:hover>a,
+.docs-sidebar .intro>.active>a {
+    color: #0E97EE;
+    font-weight: bold;
+}
+
+.docs-sidebar .intro ul>li>a {
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    .docs-sidebar .intro ul {
+        display: none;
+        padding-bottom: 10px;
+    }
+    .docs-sidebar .intro>.active>ul {
+        display: block
+    }
+}
+/*Syntax Highlighter : Sublime Theme */
+
+.syntaxhighlighter {
+    background-color: #2b303b !important;
+    padding: 15px 0;
+    margin: 2em 0 1em 0 !important;
+}
+
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
+    line-height: 1.3em !important;
+}
+
+.syntaxhighlighter .line.alt1 {
+    background-color: #2b303b !important;
+}
+
+.syntaxhighlighter .line.alt2 {
+    background-color: #2b303b !important;
+}
+
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a {
+    color: #90be8c !important;
+}
+
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a {
+    color: #d08770 !important;
+}
+
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a {
+    color: #c0c5ce !important;
+}
+
+.syntaxhighlighter .keyword {
+    color: #bf616a !important;
+}
+
+.syntaxhighlighter .gutter {
+    color: #757a84 !important;
+}
+
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2 {
+    background-color: #333E49 !important;
+}
+
+.syntaxhighlighter .gutter .line.highlighted {
+    background-color: #343d46 !important;
+    color: #757a84 !important;
+}
+
+.syntaxhighlighter .value {
+    color: #96b5b4 !important;
+}
+/*css*/
+/* .syntaxhighlighter .css.plain,
+.syntaxhighlighter .css.plain a {
+    color: #d08770 !important;
+} 
+
+.syntaxhighlighter .css.keyword {
+    color: #c0c5ce !important;
+}*/
+
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a {
+    color: #b48ead !important;
+}
+/*js*/
+
+.syntaxhighlighter .js.keyword {
+    color: #b48ead !important;
+}
