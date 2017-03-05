@@ -73,8 +73,8 @@
     VIDEO FIX -->
     =============================================== */
 
-    $('.intro>li>a').click(function() {
-        $('.intro>li').removeClass('active');
+    $('.docs-sidebar>nav>li>a').click(function() {
+        $('.docs-sidebar>nav>li').removeClass('active');
         $(this).parent().addClass('active');
     });
 
