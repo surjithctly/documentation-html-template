@@ -14,3 +14,5 @@ My Brain needs two urgent coffee to continue working. Buy me a coffee or two her
 This is a modified version of [Template Visual's](http://themeforest.net/user/templatevisual?ref=surjithctly&utm_source=github_surjithctly_docs) Documentation : Actual Documentation Link : http://goo.gl/RVwdHE
 
 Browser Testing by [Browserstack](https://www.browserstack.com/)
+
+#completly Benefitted to me, Thanks to you.
