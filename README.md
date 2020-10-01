@@ -1,5 +1,6 @@
 # Documentation for HTML Templates
 A Sample HTML Documentation Template for Wordpress Themes, HTML Templates and Plugins. Built with Bootstrap 3. 
+Click this link to download Bootstrap 3: https://getbootstrap.com/docs/3.3/
 
 ## Installation
 Download the package as ZIP and edit the HTML and CSS as you like.
