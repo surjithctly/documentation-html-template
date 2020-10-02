@@ -1,4 +1,4 @@
-# Documentation for HTML Templates
+# Documentation HTML Templates
 A Sample HTML Documentation Template for Wordpress Themes, HTML Templates and Plugins. Built with Bootstrap 3. 
 
 ## Installation
