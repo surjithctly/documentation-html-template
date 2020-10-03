@@ -369,3 +369,22 @@ a:hover {
 .navbar-inverse li.btn a {
     color: #ffffff !important;
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  z-index: 100;
+  font-size: 21px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color:#ffff;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
