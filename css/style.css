@@ -17,7 +17,9 @@
 /* ----------------------------------------------------
     SKELETON    
 ------------------------------------------------------- */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
     background: #fff;
     color: #777777;
@@ -372,19 +374,19 @@ a:hover {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 80px;
-  right: 15px;
+  bottom: 55px;
+  right: 20px;
   z-index: 100;
-  font-size: 21px;
+  font-size: 37px;
   border: none;
   outline: none;
   background-color: grey;
   color:#ffff;
   cursor: pointer;
-  padding: 25px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 300px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #404040;
 }
