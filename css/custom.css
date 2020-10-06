@@ -1,12 +1,15 @@
 /*Docs*/
 
-body.dark {
+html.dark {
     filter: invert(1);
-    background: #343434;
 }
 
-body.dark img,
-body.dark iframe {
+html.dark body {
+    background: #ddd;
+}
+
+html.dark img,
+html.dark iframe {
     filter: invert(1);
 }
 
