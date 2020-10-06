@@ -1,5 +1,14 @@
 /*Docs*/
 
+body.dark {
+    filter: invert(1);
+    background: #343434;
+}
+
+body.dark img {
+    filter: invert(1);
+}
+
 .body {
     position: relative;
 }

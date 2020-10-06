@@ -41,22 +41,31 @@
 </head>
 
 <body>
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-          <script>
-var mybutton = document.getElementById("myBtn");
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-function topFunction() {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-  document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
-}
-</script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+            document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector('#darkmode').addEventListener('change',()=>{
+                document.querySelector('body').classList.toggle('dark');
+            })
+        });
+
+
+    </script>
 
     <div id="wrapper">
 
@@ -69,6 +78,9 @@ function topFunction() {
                         <div class="big-title text-center">
                             <h1>Your ThemeForest item Name</h1>
                             <p class="lead">Your awesome theme / template documentation version 1.0</p>
+                            <label for="darkmode">
+                                <input type="checkbox" id="darkmode"> Darkmode
+                            </label>
                         </div>
                         <!-- end title -->
                     </div>
