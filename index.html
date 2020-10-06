@@ -41,7 +41,7 @@
 </head>
 
 <body>
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
           <script>
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
@@ -53,8 +53,8 @@ function scrollFunction() {
   }
 }
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+  document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
 }
 </script>
 
