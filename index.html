@@ -41,6 +41,22 @@
 </head>
 
 <body>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+          <script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+  document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
+}
+</script>
 
     <div id="wrapper">
 
@@ -99,7 +115,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Introduction<hr></h2>
+                               <h2 class="dark-text">Introduction<hr></h2>
                                 <div class="row">
 
                                     <div class="col-md-12 full">
@@ -148,7 +164,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Getting Started <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Getting Started <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -213,7 +229,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Install WordPress <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">How to Install WordPress <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -248,7 +264,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Install Theme <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">How to Install Theme <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -290,7 +306,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Necessary Plugins <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Necessary Plugins <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -335,7 +351,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Creating Blog Pages <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Creating Blog Pages <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -349,7 +365,7 @@
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4 id="line5_1">WordPress Blog Page - <a href="#top">#top</a></h4>
+                                <h4 id="line5_1">WordPress Blog Page -</h4>
                                 <ul>
                                     <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
                                     <li><strong>Step 2</strong> - Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</li>
@@ -360,7 +376,7 @@
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4 id="line5_2">Blog Post Sections - <a href="#top">#top</a></h4>
+                                <h4 id="line5_2">Blog Post Sections -</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                                 <ul>
                                     <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
@@ -372,7 +388,7 @@
 
                             <div class="col-md-4">
                                 <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4 id="line5_3">Create Blog Gallery - <a href="#top">#top</a></h4>
+                                <h4 id="line5_3">Create Blog Gallery -</h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
                                 <ul>
                                     <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
@@ -392,7 +408,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Install Revolution Slider <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">How to Install Revolution Slider <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -437,7 +453,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Use Option Panel <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">How to Use Option Panel <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -449,7 +465,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_1">General Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_1">General Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -464,7 +480,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_2">Style Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_2">Style Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -479,7 +495,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_3">Header Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_3">Header Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -494,7 +510,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_4">Font Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_4">Font Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -509,7 +525,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_5">Slider Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_5">Slider Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -524,7 +540,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_6">Page Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_6">Page Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -539,7 +555,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <h4 id="line7_7">Import & Export Options - <a href="#top">#back to top</a></h4>
+                                <h4 id="line7_7">Import & Export Options - </h4>
                                 <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
                             </div>
                             <!-- end col -->
@@ -553,7 +569,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Support Desk <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Support Desk <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -601,7 +617,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Files & Sources <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Files & Sources <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -661,7 +677,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Version History (Changelog) <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Version History (Changelog) <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -736,7 +752,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Copyright and license <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">Copyright and license <hr></h2>
                             </div>
                             <!-- end col -->
                         </div>

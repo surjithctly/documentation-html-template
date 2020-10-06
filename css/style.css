@@ -17,7 +17,6 @@
 /* ----------------------------------------------------
     SKELETON    
 ------------------------------------------------------- */
-
 body {
     background: #fff;
     color: #777777;
@@ -368,4 +367,24 @@ a:hover {
 
 .navbar-inverse li.btn a {
     color: #ffffff !important;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  height:40px;
+  width:40px;
+  bottom: 55px;
+  right: 20px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color:#ffff;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #404040;
 }
