@@ -5,8 +5,13 @@ body.dark {
     background: #343434;
 }
 
-body.dark img {
+body.dark img,
+body.dark iframe {
     filter: invert(1);
+}
+
+#darkmode {
+    cursor: pointer;
 }
 
 .body {

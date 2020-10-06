@@ -59,7 +59,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-            document.querySelector('#darkmode').addEventListener('change',()=>{
+            document.querySelector('#darkmode').addEventListener('click',()=>{
                 document.querySelector('body').classList.toggle('dark');
             })
         });
@@ -78,8 +78,10 @@
                         <div class="big-title text-center">
                             <h1>Your ThemeForest item Name</h1>
                             <p class="lead">Your awesome theme / template documentation version 1.0</p>
-                            <label for="darkmode">
-                                <input type="checkbox" id="darkmode"> Darkmode
+
+                            <label for="darkmode" id="darkmode" >
+                                <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span>
+                                toggle dark/light mode
                             </label>
                         </div>
                         <!-- end title -->
