@@ -371,6 +371,7 @@ a:hover {
 #myBtn {
   display: none;
   position: fixed;
+  z-index: 1;
   height:40px;
   width:40px;
   bottom: 55px;

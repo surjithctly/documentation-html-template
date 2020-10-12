@@ -34,6 +34,7 @@ html #mode .dark {
     position: fixed;
     right: 16px;
     top: 16px;
+    z-index: 1;
     border-radius: 16px;
     line-height: 0;
 }
