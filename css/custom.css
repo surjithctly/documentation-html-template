@@ -1,3 +1,109 @@
+/* dark / light mode */
+html.dark body {
+    background: #222;
+    color: #888888;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+    color: #dbdbdb;
+}
+
+html.dark hr {
+    border-color: #111;
+}
+
+html.dark .docs-sidebar .nav>li>a {
+    color: #eee;
+}
+
+html.dark .dark-text hr {
+    border-color: #fcfcfc;
+}
+
+html.dark strong {
+    color: #fcfcfc;
+}
+
+html.dark .intro1 {
+    background-color: #0c0c0c;
+}
+
+html.dark .intro1 a {
+    color: #F16811 !important;
+}
+
+html.dark a {
+    color: #CC8548;
+}
+
+html.dark a:hover {
+    color: #F16811;
+}
+
+html.dark .intro2 {
+    background-color: #F16811;
+    border-color: #DE7844;
+}
+
+html.dark .btn-primary {
+    background-color: #F16811;
+    border-color: #DE7844;
+    color: #000;
+}
+
+html.dark .btn-primary:hover {
+    background-color: #DE7844;
+    border-color: #F16811;
+}
+
+html.dark .btn-info {
+    background-color: #ABABAB;
+    border-color: #9A9A9A;
+    color: #000;
+}
+
+html.dark .btn-info:hover {
+    background-color: #9A9A9A;
+    border-color: #ABABAB;
+}
+
+#mode {
+    cursor: pointer;
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    z-index: 1;
+    border-radius: 16px;
+    line-height: 0;
+}
+
+#mode svg {
+    width: 20px;
+    padding: 12px;
+    box-sizing: content-box;
+}
+
+html.dark #mode .light {
+    display: none;
+}
+
+html #mode .light {
+    display: block;
+}
+
+html.dark #mode .dark {
+    display: block;
+}
+
+html #mode .dark {
+    display: none;
+}
+
 /*Docs*/
 
 .body {
