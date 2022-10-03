@@ -209,6 +209,10 @@ strong {
     margin-bottom: 0;
     text-transform: capitalize;
     padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: #0E97EE;
+    border-style: inset;
+    border-radius: 15px;
 }
 
 .dark-text {
